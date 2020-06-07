@@ -1,7 +1,5 @@
 # action will be run in python3 container
 FROM python:3
-# creating a directory name /code and setting it as our workdirectory
-
 # copying requirements.txt and install the action dependencies
 COPY requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
