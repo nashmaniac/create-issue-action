@@ -15,7 +15,7 @@ This will let you create an issue based on user input from your GitHub Workflow
 
 ## Usages
 ```yaml
-- uses: nashmaniac/create-issue-action@v1.1
+- uses: nashmaniac/create-issue-action@v1.2
   name: Create Issue Action
   with:
     title: Build Failed
