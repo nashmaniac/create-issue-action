@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run Action
         # we can give directory path that contains action.yaml or repo address in username/repository_name format
         # in our case it would be nashmaniac/create-issue-action
